@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gerador de Link para o WhatsApp</title>
+  
+  <!-- Meta tags para SEO -->
+  <meta name="description" content="Ferramenta para gerar links do WhatsApp com número e mensagem pré-definidos.">
+  <meta name="keywords" content="WhatsApp, link, gerador, número de telefone, mensagem">
+  <meta name="author" content="Gerador de Link para o WhatsApp">
+
+  <!-- Estilos -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Gerador de Link para o WhatsApp</h1>
+  </header>
+  <div class="whatsapp-container">
+    <label for="phoneNumber">Número de Telefone (com DDD):</label>
+    <input type="tel" id="phoneNumber" placeholder="Digite o número">
+    <label for="message">Mensagem:</label>
+    <input type="text" id="message" placeholder="Digite a mensagem">
+    <button onclick="generateLink()">Gerar Link para o WhatsApp</button>
+    <div class="link-container">
+      <input type="text" id="whatsappLink" readonly><br><br>
+      <button onclick="copyLink()">Copiar Link</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

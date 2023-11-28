@@ -1,0 +1,69 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@500&display=swap');
+
+
+/* Reset básico para limpar estilos padrão do navegador */
+body {
+  background-color: #ffffff;
+  font-family:family=Cinzel;
+  margin: 0;
+  padding: 0;
+}
+
+/* Estilo do cabeçalho */
+header {
+  background-color: #25D366;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+}
+
+/* Container principal */
+.whatsapp-container {
+  max-width: 400px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #ffffff;
+  box-shadow: 4px 8px 12px #25D366;
+  border-radius: 8px;
+}
+
+/* Estilo para os campos e botões */
+label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+
+input[type="text"],
+button {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 12px;
+  border-radius: 5px;
+  border: 1px solid #000000;
+  box-sizing: border-box; /* Para incluir padding e borda na largura */
+}
+input[type="tel"],
+button {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 12px;
+  border-radius: 5px;
+  border: 1px solid #000000;
+  box-sizing: border-box; /* Para incluir padding e borda na largura */
+}
+
+button {
+  background-color: #25D366;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #128C7E;
+}
+
+
